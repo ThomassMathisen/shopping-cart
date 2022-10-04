@@ -3,9 +3,7 @@ import { NavLink } from "react-router-dom"
 import { useShoppingCart } from "../context/ShippingCartContext"
 
 export function Navbar() {
-  const {
-    openCart, cartQuantity
-  } = useShoppingCart()
+  const { openCart, cartQuantity } = useShoppingCart()
   return ( 
   <NavbarBs sticky="top" className="bg-white shadow-sm mb-3">
     <Container>
@@ -24,7 +22,8 @@ export function Navbar() {
       <Button 
         onClick={openCart}
         style = {{ width: "3rem",  height: "3rem", position: "relative" }}
-        variant="outline-primary" className="rounded-circle"
+        variant="outline-primary" 
+        className="rounded-circle"
       >
         <svg
               xmlns="http://www.w3.org/2000/svg"
