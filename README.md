@@ -9,3 +9,4 @@ https://www.theodinproject.com/lessons/node-path-javascript-shopping-cart
 ## Built with
  - [TypeScript](https://www.typescriptlang.org)
  - [React](https://reactjs.org/)
+ - [Bootstrap](https://getbootstrap.com)
